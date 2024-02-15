@@ -1,3 +1,16 @@
+<#
+.SYNOPSIS
+    This code searches for text files containing a specified string within a defined directory. 
+    It then outputs the list of matching files or notifies if none are found.
+    
+.VERSION
+    1.1
+
+.NOTES
+    Author: James Hunter
+    Date:   15/02/24
+#>
+
 # Define the directory to search in
 $searchDirectory = "C:\Path\To\Search"
 
